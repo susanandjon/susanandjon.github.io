@@ -4,10 +4,16 @@ This is a website that we're making for our wedding in 2019.
 
 You can visit the site here: [https://susanandjon.com](https://susanandjon.com)
 
-### Completed Tasks
 
-### Still in Development
+### Completed Tasks
+    - Purchase domain
+    - Set up GitHub
+    - Create temporary landing page
+
+
+### Next Up
+    - Improve temporary landing page
 
 ### Questions?
 
-Email us on GitHub or at [emailto:jon@susanandjon.com](jon@susanandjon.com)
+Contact us on GitHub or at [jon@susanandjon.com](emailto:jon@susanandjon.com)
