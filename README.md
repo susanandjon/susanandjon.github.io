@@ -1,4 +1,4 @@
-# susanandjon.github.io
+# Susan and Jon
 
 This is a website that we're making for our wedding in 2019.
 
