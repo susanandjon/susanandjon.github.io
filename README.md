@@ -1,4 +1,4 @@
-# Susan and Jon
+# Susan and Jon :ring:
 
 This is a website that we're making for our wedding in 2019.
 
