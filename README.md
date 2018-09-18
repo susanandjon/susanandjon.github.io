@@ -6,13 +6,13 @@ You can visit the site here: [https://susanandjon.com](https://susanandjon.com)
 
 
 ### Completed Tasks
-    - Purchase domain
-    - Set up GitHub
-    - Create temporary landing page
+- Purchase domain
+- Set up GitHub
+- Create temporary landing page
 
 
 ### Next Up
-    - Improve temporary landing page
+- Improve temporary landing page
 
 ### Questions?
 
