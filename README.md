@@ -6,7 +6,8 @@ You can visit the site here: [https://susanandjon.com](https://susanandjon.com)
 
 
 ### Next Steps
-- Improve temporary landing page
+- Improve logo
+- Start making homepage
 
 ### Questions?  Advice?
 
