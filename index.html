@@ -91,9 +91,40 @@
 
         <h3 class="pt50" id="rsvp">RSVP</h3><br>
 
+        <form name="rsvp" method="POST" data-netlify="true">
+
+            <label for="fname">Name</label>
+            <input type="text" id="name" name="name" placeholder="First & Last Please">
+
+            <label for="response">Response</label>
+            <select id="response" name="response">
+              <option value="Accept">Accept</option>
+              <option value="Decline">Decline</option>
+            </select>
+        
+            <label for="meal">Meal</label>
+            <select id="meal" name="meal">
+              <option value="chicken">Chicken</option>
+              <option value="beef">Beef</option>
+              <option value="vegetarian">Vegetarian</option>
+            </select>
+        
+            <label for="comments">Comments</label>
+            <textarea id="comments" name="comments" placeholder="What's on your mind?" style="height:100px"></textarea>
+        
+            <input type="submit" value="Submit">
+        </form>
+
+        <br><br><br><br>
+
       </div>
     </div>
   </div>
+
+  <footer>
+    <br>
+    <p>&copy; Susan & Jon 2019.</p>
+  </footer>
 
   <script>
       var countDownDate = new Date("Oct 5, 2019").getTime();

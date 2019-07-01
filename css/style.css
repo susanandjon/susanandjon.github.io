@@ -43,8 +43,8 @@ body {
   width: 100vw;
   height: 100%;
   margin: 0 auto;
-  background-image: url(../img/top.png);
-  background-position: top;
+  background-image: url(../img/top.png), url(../img/bottom.png);
+  background-position: top, bottom;
   background-repeat: no-repeat;
   background-size: 100%;
   overflow: visible;
@@ -137,4 +137,35 @@ h5 {
 
 img.banner {
   max-width: 100%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+  background-color: #9e8562;
+  color: #ffffff;
+}
+
+option, input, select {
+  color: #000000;
+  height: 50px;
+}
+
+label {
+  font-size: 2.2rem;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
 }
