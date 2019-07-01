@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|DM+Serif+Text&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #152a4f;
+  font-family: 'DM Serif Text', serif;
+  color: #ffffff;
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.pt30 {
+  padding-top: 30px;
+}
+
+.pt50 {
+  padding-top: 50px;
+}
+
+#navbar {
+  padding-top: 2rem;
+}
+
+#main {
+  width: 100vw;
+  height: 100%;
+  margin: 0 auto;
+  background-image: url(../img/top.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: visible;
+  text-align: center;
+}
+
+@media(min-width:800px) {
+  #main {
+    width: 80vw;
+  }
+}
+
+@media(min-width:1200px) {
+  #main {
+    width: 50vw;
+  }
+}
+
+#secondary {
+  padding-top: 80px;
+}
+
+@media(max-width:600px) {
+  #secondary {
+    padding-top: 50px;
+  }
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+ul.navbar li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #9e8562;
+}
+
+h1.title {
+  font-size: 6rem;
+  margin-bottom: 0;
+}
+
+@media(max-width:600px) {
+  h1.title {
+    font-size: 3rem;
+  }
+}
+
+h4.subtitle {
+  font-size: 3rem;
+}
+
+h5 {
+  padding: none;
+  line-height: 1.5rem;
+}
+
+#countdown {
+  font-family: 'Allura', cursive;
+  font-size: 3.5rem;
+}
+
+@media(max-width:600px) {
+  h4.subtitle {
+    font-size: 2.5rem;
+  }
+}
+
+img.banner {
+  max-width: 100%;
+}
