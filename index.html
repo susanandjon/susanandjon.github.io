@@ -17,11 +17,11 @@
 </head>
 <body>
 
-  <!-- Nav Bar -->
   <header>
     <div class="container" id="navbar">
       <div class="row">
         <div class="twelve columns">
+          <!--
           <ul class="navbar">
             <li>
               <a href="#about" class="smooth-scroll">About</a>
@@ -36,6 +36,7 @@
               <a href="#rsvp">RSVP</a>
             </li>
           </ul>
+        -->
         </div>
       </div>
     </div>
@@ -45,10 +46,8 @@
     <div class="container" id="secondary">
       <div class="container">
 
-        <h1 class="title">Susan and Jon</h1>
-        <h4 class="subtitle">October 5th, 2019</h4>
-
-        <p><span class="fade-in" id="countdown">&nbsp;</span></p>
+        <h1 class="title">Thank You</h1>
+        <h4 class="subtitle">Love, <br> Susan & Jon</h4>
 
       </div>
 
@@ -56,75 +55,14 @@
   
       <div class="container">
 
-        <h3 class="pt50" id="about">Welcome</h3>
+        <br><br>
 
-          <h6>Thank you for visiting our website.  We're excited for the big day, hope you are too! We tried to make this your one stop shop with everything you need to know.  But, if you have any questions or technical difficulties, please don't hesistate to <a href="mailto:jon@susanandjon.com">contact us</a>.  Thanks!</h6>
-
-
-        <img class="pt30" src="./img/sep.png">
-
-        <h3 class="pt50" id="details">Details</h3><br>
-
-          <h5>4:00 PM</h5>
-          <h5>Saturday, October 5th, 2019</h5>
-          <h5>Endicott Estate</h5>
-          <h5>656 East Street, Dedham, MA</h5><br>
+          <h4 class="subtitle">We had an incredible wedding!  Thank you all for celebrating with us.  We would love to see your pictures!  Please <a href="mailto:jon@susanandjon.com">email us</a> them!</h4>
 
       </div>
-
-        <iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Endicott%20Estate&key=AIzaSyA6mauaExS1oU5EkIk37ouHn3XaeJV4lng&zoom=13" allowfullscreen></iframe>
-
-      <div class="container">
-
-        <h3 class="pt50" id="faqs">FAQs</h3><br>
-
-        <h5>What's the dress code?</h5>
-        <p>Cocktail attire. But don't stress, we're not strict!</p><br>
-
-        <h5>Are children allowed?</h5>
-        <p>Don't get us wrong, we love your kids (really, we do!). But we ask that you find somewhere else for them to be for the night. Thank you for understanding.</p><br>
-
-        <h5>Are there hotels nearby?</h5>
-        <p>There are multiple options close by. You can <a href="mailto:jon@susanandjon.com">email Jon</a> for information on blocks and rates.</p>
-
-        <img class="pt30" src="./img/sep.png">
-
-        <h3 class="pt50" id="rsvp">RSVP</h3><br>
-
-        <form name="rsvp" method="POST" data-netlify-recaptcha="true" data-netlify="true">
-
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="First & Last">
-
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="something@something.com">
-
-            <label for="response">Response</label>
-            <select id="response" name="response">
-              <option value="Accept">Accept</option>
-              <option value="Decline">Decline</option>
-            </select>
-        
-            <label for="meal">Meal</label>
-            <select id="meal" name="meal">
-              <option value="chicken">Chicken</option>
-              <option value="beef">Beef</option>
-              <option value="vegetarian">Vegetarian</option>
-            </select>
-        
-            <label for="comments">Comments</label>
-            <textarea id="comments" name="comments" placeholder="Anything you'd like us to know?" style="height:100px"></textarea>
-
-            <input type="hidden" name="form-name" value="rsvp" />
-
-            <div data-netlify-recaptcha="true"></div>
-        
-            <input type="submit" name="submit" value="Submit">
-        </form>
 
         <br><br><br><br>
 
-      </div>
     </div>
   </div>
 
@@ -132,20 +70,6 @@
     <br>
     <p>&copy; Susan & Jon 2019</p>
   </footer>
-
-  <script>
-      var countDownDate = new Date("Oct 5, 2019").getTime();
-      var x = setInterval(function() {
-        var now = new Date().getTime();
-        var distance = countDownDate - now;
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        document.getElementById("countdown").innerHTML = "only " + days + " days to go!";
-        if (distance < 0) {
-          clearInterval(x);
-          document.getElementById("countdown").innerHTML = "";
-        }
-      }, 1000);
-    </script>
 
 </body>
 </html>
